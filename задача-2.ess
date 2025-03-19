@@ -5,7 +5,7 @@ void check_even_odd() {
     int num;
     printf("Введите целое число: ");
     scanf("%d", &num);
-    printf("Четное\n" + (num % 2) * 8);
+    printf("%s\n" + (num & 1) * 8, "Четное\nНечетное");
 }
 
 int main() {
