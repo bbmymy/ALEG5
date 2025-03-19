@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+
+void check_even_odd() {
+    int num;
+    printf("Введите целое число: ");
+    scanf("%d", &num);
+    printf("Четное\n" + (num % 2) * 8);
+}
+
+int main() {
+    check_even_odd();
+    return 0;
+}
